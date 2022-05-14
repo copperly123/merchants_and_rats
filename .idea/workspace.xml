@@ -5,19 +5,48 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d6e2d99-2469-47b4-a65e-521193bffff9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Game/Window.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Game/ActiveActors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Game/Actor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Game/Ticks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backgrounds/grass.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/animated/bombRat1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/animated/bombRat2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/animated/bombRat3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/animated/bombRat4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/animated/jumpingRat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/animated/jumpingRat1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/animated/jumpingRat2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/animated/jumpingRat3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/animated/merchant1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/animated/merchant2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/animated/rat1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/animated/rat2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/animated/rat3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/animated/rat4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/animated/throwingMerchant1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/animated/throwingMerchant2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/bombMouse.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/border.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/farmer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/gem.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/jumpingMouse.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/merchant.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/moneybag.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/mouse.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/throwingMerchant.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/music/theTime.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sounds/CoinHitSound.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sounds/DieSound.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sounds/SoundEffect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sounds/StabSound.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sounds/ZombieSound.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sounds/coinHit.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sounds/die.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sounds/stab.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sounds/zombie.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Game/Window.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Game/Window.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,10 +81,19 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "WebServerToolWindowFactoryState": "false",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Window" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Game.Window" />
@@ -85,6 +123,7 @@
       <option name="presentableId" value="Default" />
       <updated>1652501414512</updated>
       <workItem from="1652501418885" duration="1852000" />
+      <workItem from="1652505797437" duration="7346000" />
     </task>
     <servers />
   </component>
@@ -101,5 +140,13 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/merchants_and_rats$Window.ic" NAME="Window Coverage Results" MODIFIED="1652511968318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Game.*</FILTER>
+    </SUITE>
   </component>
 </project>
